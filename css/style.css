@@ -6,13 +6,16 @@ body{
 }
 
 #menu_top {
-    background: #141414;
+    background: hsl(103, 72%, 22%);
     height: 40px;
 }
 
 #banner {
-    background: red;
-    height: 280px;
+    height: auto;
+}
+
+#banner img {
+    width: 1000px;
 }
 
 #main #left {
@@ -36,4 +39,25 @@ body{
     clear: left;
     color: #ffffff;
     line-height: 40px;
+}
+
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu_top ul li{
+    list-style: none;
+    float: left;
+    color: #ffffff;
+}
+
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #ffffff;
+    padding: 0px 20px 0px 20px;
+    border-right: 0.2px solid #291313;
 }
