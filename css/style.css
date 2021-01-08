@@ -1,44 +1,15 @@
+/* thong so chung cua body */
 body{
     margin: 0px auto;
     font-family: Tahoma, sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     width: 1000px;
 }
 
+/* Day la noi dung cua menu top */
 #menu_top {
     background: hsl(103, 72%, 22%);
-    height: 40px;
-}
-
-#banner {
-    height: auto;
-}
-
-#banner img {
-    width: 1000px;
-}
-
-#main #left {
-    background: rgb(28, 204, 57);
-    width: 700px;
-    float: left;
-    min-height: 400px;
-}
-
-#main #right {
-    background: blue;
-    width: 300px;
-    float: left;
-    min-height: 400px;
-}
-
-#footer {
-    background: #000;
-    height: 40px;
-    text-align: center;
-    clear: left;
-    color: #ffffff;
-    line-height: 40px;
+    height: 50px;
 }
 
 #menu_top ul{
@@ -55,9 +26,72 @@ body{
 #menu_top ul li a{
     text-decoration: none;
     display: block;
-    height: 40px;
-    line-height: 40px;
+    height: 50px;
+    line-height: 50px;
     color: #ffffff;
     padding: 0px 20px 0px 20px;
     border-right: 0.2px solid #291313;
+}
+
+/* Day la noi dung cua banner */
+#banner {
+    height: auto;
+}
+
+#banner img {
+    width: 1000px;
+}
+
+/* Day la noi dung cua main */
+#main {
+    margin-top: 10px;
+}
+
+/* Day la noi dung cua main left */
+#main #left {
+    width: 700px;
+    float: left;
+}
+
+#main #left ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #left ul li{
+    list-style: none;
+    clear: left;
+    border-bottom: 1px solid #ccc;
+    float: left;
+    margin-bottom: 15px;
+}
+
+#main #left ul li img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+#main #left ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+/* Day la noi dung cua main right */
+#main #right {
+    background: blue;
+    width: 300px;
+    float: left;
+    min-height: 400px;
+}
+
+/* Day la noi dung cua footer */
+#footer {
+    background: #000;
+    height: 40px;
+    text-align: center;
+    clear: left;
+    color: #ffffff;
+    line-height: 40px;
 }
