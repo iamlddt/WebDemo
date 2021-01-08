@@ -35,11 +35,11 @@ body{
 
 /* Day la noi dung cua banner */
 #banner {
-    height: auto;
+  height: auto;
 }
 
 #banner img {
-    width: 1000px;
+  width: 1000px;
 }
 
 /* Day la noi dung cua main */
@@ -80,10 +80,10 @@ body{
 
 /* Day la noi dung cua main right */
 #main #right {
-    background: blue;
-    width: 300px;
-    float: left;
-    min-height: 400px;
+  background: blue;
+  width: 300px;
+  float: left;
+  min-height: 400px;
 }
 
 /* Day la noi dung cua footer */
