@@ -33,6 +33,10 @@ body{
     border-right: 0.2px solid #291313;
 }
 
+#menu_top ul li a:hover {
+    color: orange;
+}
+
 /* Day la noi dung cua banner */
 #banner {
   height: auto;
@@ -80,15 +84,45 @@ body{
 
 /* Day la noi dung cua main right */
 #main #right {
-  background: blue;
   width: 300px;
   float: left;
   min-height: 400px;
 }
 
+#main #right ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#main #right ul li {
+    list-style: none;
+    text-indent: 15px;
+}
+
+#main #right ul li a {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 40px;
+    color: #554747
+}
+
+#main #right ul li a:hover {
+    color: red;  
+}
+
+#main #right h3{
+    background:#195d58;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+
 /* Day la noi dung cua footer */
 #footer {
-    background: #000;
+    background: rgb(88, 83, 83);
     height: 40px;
     text-align: center;
     clear: left;
