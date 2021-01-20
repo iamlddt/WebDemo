@@ -37,6 +37,10 @@ body{
     color: orange;
 }
 
+#menu_top ul li .fa-home {
+    margin-right: 5px;
+}
+
 /* Day la noi dung cua banner */
 #banner {
   height: auto;
@@ -114,9 +118,13 @@ body{
     background:#195d58;
     height: 40px;
     line-height: 40px;
-    text-align: center;
     font-size: 14px;
     color: #ffffff;
+    text-indent: 10px;
+}
+
+#main #right h3 .fa-bars {
+    margin-right: 8px; /* Dieu chinh khoang cach cua icon voi text */
 }
 
 
